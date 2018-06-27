@@ -1,0 +1,60 @@
+import java.applet.*;
+import java.awt.*;
+public class Chessboard extends Applet
+{
+public void paint(Graphics g)
+{
+int i,j;
+j=0;
+for(i=0;i<4;i++)
+{
+g.fillRect(0,j,100,100);
+j=j+200;
+}
+j=0;
+j=j+100;
+for(i=0;i<4;i++)
+{
+g.fillRect(100,j,100,100);
+j=j+200;
+}
+j=0;
+for(i=0;i<4;i++)
+{
+g.fillRect(200,j,100,100);
+j=j+200;
+}
+j=0;
+j=j+100;
+for(i=0;i<4;i++)
+{
+g.fillRect(300,j,100,100);
+j=j+200;
+}
+j=0;
+for(i=0;i<4;i++)
+{
+g.fillRect(400,j,100,100);
+j=j+200;
+}j=0;
+j=j+100;
+for(i=0;i<4;i++)
+{
+g.fillRect(500,j,100,100);
+j=j+200;
+}
+j=0;
+for(i=0;i<4;i++)
+{
+g.fillRect(600,j,100,100);
+j=j+200;
+}
+j=0;
+j=j+100;
+for(i=0;i<4;i++)
+{
+g.fillRect(700,j,100,100);
+j=j+200;
+}
+}
+}
